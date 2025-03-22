@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #c4ffec; /* Color amarillo suave */
+    color: #444;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: hsl(60, 95%, 51%); /* Amarillo fuerte */
+}
+
+img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 10px;
+    color:rgb(251, 255, 0)
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+.watermark {
+    position: center;
+    bottom: 10px; /* Distancia desde abajo */
+    right: 10px; /* Distancia desde la derecha */
+    background: rgb(6, 1, 1); /* Fondo semi-transparente */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    
+}
